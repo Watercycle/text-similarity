@@ -19,6 +19,7 @@
     "@material/button": "^7.0.0",
     "@types/jest": "^26.0.14",
     "@types/parcel-env": "^0.0.0",
+    "@types/webpack-env": "^1.15.3",
     "babel-jest": "^26.5.2",
     "babel-preset-solid": "^0.20.2",
     "css-ripple-effect": "^1.0.5",

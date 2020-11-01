@@ -23,6 +23,7 @@
     "babel-jest": "^26.5.2",
     "babel-preset-solid": "^0.20.2",
     "css-ripple-effect": "^1.0.5",
+    "identity-obj-proxy": "^3.0.0",
     "jest": "^26.5.2",
     "materialize-css": "^1.0.0-rc.2",
     "parcel": "^2.0.0-beta.1",

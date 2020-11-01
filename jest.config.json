@@ -1,3 +1,5 @@
 {
-
+    "moduleNameMapper": {
+        "\\.(styl)$": "identity-obj-proxy"
+      }
 }

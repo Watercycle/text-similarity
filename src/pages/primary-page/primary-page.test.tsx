@@ -1,4 +1,8 @@
+import { assertMatchesSnapshot } from "../../test-helpers"
+import { PrimaryPage } from './primary-page'
 
-it('works', () => {
-    
+describe('PrimaryPage', () => {
+    it('renders', () => {
+        assertMatchesSnapshot(() => <PrimaryPage/>)
+    })    
 })

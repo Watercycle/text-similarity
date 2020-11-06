@@ -1,6 +1,8 @@
 import { assertMatchesSnapshot } from "../../test-helpers"
 import { App } from './app'
 
-it('works', () => {
-    assertMatchesSnapshot(() => <App>Yeet</App>)
+describe('App', () => {
+    it('renders', () => {
+        assertMatchesSnapshot(() => <App>Yeet</App>)
+    })    
 })

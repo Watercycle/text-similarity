@@ -7,7 +7,7 @@ const root = document.getElementById("root")
 if (!root) throw Error('index.html is has no root element.')
 root.innerHTML = '';
 
-const dispose = render(App, root)
+const dispose = render(() => App, root)
 
 // Live Reloading / Hot Module Replacement (HMR) Support
 if (module.hot) {

@@ -1,4 +1,8 @@
+import { Component } from 'solid-js'
 import { PrimaryPage } from '../../pages/primary-page/primary-page'
 import styles from './app.styl'
 
-export const App = () => <PrimaryPage/>
+export interface Props {}
+
+export const App: Component<Props> = props =>
+    <PrimaryPage/>
